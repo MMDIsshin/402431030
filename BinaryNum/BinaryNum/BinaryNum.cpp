@@ -14,7 +14,7 @@ int main() {
 	{
 			cout << *i;
 	}
-	
+	system("pause>0");
 }
 // ICE T MODE ;)
 //-MMD.
