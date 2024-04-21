@@ -17,17 +17,17 @@ int main() {
 		}
 		outl.emplace_front(1);
 		if (temp < 0) {
-			
-			while (s <= abs(temp)) {
-				n += 1;
-				s = pow(2,n)/2;
+			outl.emplace_front(0); // that is ...
+			//while (s <= abs(temp)) //{
+				//n += 1;
+				//s = pow(2,n)/2;
+				 // they're what i learned in code format ... but i found an alghortim :)
+			//}
+			//result = (n - outl.size());
+			//for (int i = 0; i != result;i++) {
+				//outl.emplace_front(0);
 				
-			}
-			result = (n - outl.size());
-			for (int i = 0; i != result;i++) {
-				outl.emplace_front(0);
-				
-			}
+			//}
 			for (auto i = outl.begin(); i != outl.end();i++) {
 				*i = (*i == 1) ? 0 : 1;
 			}
